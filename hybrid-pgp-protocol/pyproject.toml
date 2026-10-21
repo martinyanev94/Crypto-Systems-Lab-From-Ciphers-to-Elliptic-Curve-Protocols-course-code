@@ -1,0 +1,12 @@
+[project]
+name = "hybrid-pgp-protocol"
+version = "0.1.0"
+description = "Educational signed hybrid message exchange"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=42.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
