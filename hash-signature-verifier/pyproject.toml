@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hash-signature-verifier"
+version = "0.1.0"
+description = "Educational toy hash-and-sign verification service"
+requires-python = ">=3.10"
+
+[project.scripts]
+verify-signature = "signature_service:main"
