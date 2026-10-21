@@ -1,0 +1,10 @@
+[project]
+name = "des-family-lab"
+version = "0.1.0"
+description = "Educational toy DES-family composition lab"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
